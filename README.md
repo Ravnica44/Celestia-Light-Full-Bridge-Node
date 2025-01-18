@@ -1,23 +1,44 @@
-`screen -S Celestia`
+```shell
+screen -S Celestia
+```
 
-`git clone https://github.com/celestiaorg/celestia-node.git`
+```shell
+git clone https://github.com/celestiaorg/celestia-node.git
+```
 
-`cd celestia-node`
+```shell
+cd celestia-node
+```
 
-`make build`
+```shell
+make build
+```
 
-`sudo make install`
+```shell
+sudo make install
+```
 
-(celestia light config-remove)
+```shell
+celestia light config-remove
 
-(https://docs.celestia.org/tutorials/celestia-node-key)
+https://docs.celestia.org/tutorials/celestia-node-key
 
-`make cel-key`
+```shell
+make cel-key
+```
 
-`./cel-key --help`
+```shell
+./cel-key --help
+```
 
-`./cel-key add My_Celestia_key_import --recover --keyring-backend file --node.type light --p2p.network celestia`
+```shell
+./cel-key add My_Celestia_key_import --recover --keyring-backend file --node.type light --p2p.network celestia
+```
 
-`celestia light init --keyring.backend file`
+```shell
+celestia light init --keyring.backend file
+```
 
-`celestia light start --keyring.backend file`
+```shell
+celestia light start --keyring.backend file
+```
