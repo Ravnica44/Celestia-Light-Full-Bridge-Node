@@ -19,10 +19,12 @@ make install
 ```
 
 ```shell
-celestia light config-remove
+celestia light config-remove # à utiliser uniquement si tu veux enlever une ancienne config
 ```
 
 https://docs.celestia.org/tutorials/celestia-node-key
+
+remplace `light` par `full` ou `bridge`
 
 ```shell
 make cel-key
