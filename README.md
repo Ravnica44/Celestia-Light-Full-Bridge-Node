@@ -15,7 +15,7 @@ make build
 ```
 
 ```shell
-sudo make install
+make install
 ```
 
 ```shell
