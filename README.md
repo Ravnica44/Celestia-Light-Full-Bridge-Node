@@ -20,6 +20,7 @@ sudo make install
 
 ```shell
 celestia light config-remove
+```
 
 https://docs.celestia.org/tutorials/celestia-node-key
 
